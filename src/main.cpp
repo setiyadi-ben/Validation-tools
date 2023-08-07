@@ -18,7 +18,7 @@ void setup() {
   Serial.begin(9600);
   Wire.begin();
   lcd.begin(20, 4);
-  lcd.backlight();
+  lcd.backlight(); //Turn LED ON / OFF in LCD Screen
   lcd.clear();
 
   // Initialize the multiplexer
